@@ -1,0 +1,51 @@
+.contents{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap:1.5rem;
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: black;
+}
+.crt{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid gold;
+    background: rgba(255, 217, 0, 0.469);
+    transition: all .2 linear;
+    font-family: 'Grand Hotel', cursive;
+}
+.crt:hover{
+    background: gold;
+    border: 4px solid rgba(76, 66, 9, 0.652) ;
+    border-bottom: 5px solid red;
+}
+.pic{
+    border-radius: 12px;
+    width: 98%;
+}
+.place{
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.298);
+    color: white;
+    min-height: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+@media (max-width:321px) {
+    .contents{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+@media (max-width:376px) {
+    .contents{
+        padding-left: 13px;
+    }
+}

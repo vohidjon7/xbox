@@ -1,0 +1,304 @@
+.card1{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.card2{
+    position: relative;
+    width: 60%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    border-radius: 12px;
+    overflow: auto;
+}
+.hidden-div1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: gold;
+    border-bottom-right-radius: 20px;
+}
+.hidden-div2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: gold;
+    border-bottom-left-radius: 20px;
+}
+.hidden-div3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: gold;
+    border-top-right-radius: 20px;
+}
+.hidden-div4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: gold;
+    border-top-left-radius: 20px;
+}
+.hidden-div5{
+    height: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    background: gold;
+}
+.hidden-div6{
+    height: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    background: gold;
+}
+.hidden-div7{
+    width: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    background: gold;
+}
+.hidden-div8{
+    width: 50%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    background: gold;
+}
+.card30{
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card4 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+}
+.card4{
+    width: 70%;
+    min-height: 100px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+}
+@media (max-width:321px) {
+    .card2{
+        position: relative;
+        width: 92%;
+        height: 300px;
+    }
+    .hidden-div1{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: gold;
+        border-bottom-right-radius: 10px;
+    }
+    .hidden-div2{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: gold;
+        border-bottom-left-radius: 10px;
+    }
+    .hidden-div3{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: gold;
+        border-top-right-radius: 10px;
+    }
+    .hidden-div4{
+        width: 30px;
+        height: 30px;
+        border-top-left-radius: 10px;
+    }
+    .hidden-div5{
+        height: 50%;
+        padding: 4px;
+    }
+    .hidden-div6{
+        height: 50%;
+        padding: 4px;
+    }
+    .hidden-div7{
+        width: 50%;
+        padding: 4px;
+    }
+    .hidden-div8{
+        width: 50%;
+        padding: 4px;
+    }
+    .card30{
+        width: 100%;
+        height: 300px;
+    }
+    .card4 img{
+        width: 100px;
+        height: 70px;
+    }
+    .card4{
+        width: 70%;
+        height: 300px;
+        border: 2px solid black;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px auto;
+        padding: 10px;
+    }
+    .btn22{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width:450px) {
+    .card2{
+        position: relative;
+        width: 90%;
+        height: 400px;
+    }
+    .hidden-div1{
+        width: 45px;
+        height: 45px;
+        border-bottom-right-radius: 10px;
+    }
+    .hidden-div2{
+        width: 45px;
+        height: 45px;
+        border-bottom-left-radius: 10px;
+    }
+    .hidden-div3{
+        width: 45px;
+        height: 45px;
+        border-top-right-radius: 10px;
+    }
+    .hidden-div4{
+        width: 45px;
+        height: 45px;
+        border-top-left-radius: 10px;
+    }
+    .hidden-div5{
+        height: 50%;
+        padding: 6px;
+    }
+    .hidden-div6{
+        height: 50%;
+        padding: 6px;
+    }
+    .hidden-div7{
+        width: 50%;
+        padding: 6px;
+    }
+    .hidden-div8{
+        width: 50%;
+        padding: 6px;
+    }
+    .card30{
+        width: 100%;
+        height: 300px;
+    }
+    .card4 img{
+        width: 130px;
+        height: 130px;
+    }
+    .card4{
+        width: 70%;
+        min-height: 50px;
+        border: 2px solid black;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px auto;
+        padding: 10px;
+    }
+    .btn22{
+        margin-top: 5px;
+    }
+}
+@media (max-width:1025px) {
+    .card2{
+        position: relative;
+        width: 90%;
+        height: 400px;
+    }
+    .hidden-div1{
+        width: 60px;
+        height: 60px;
+        border-bottom-right-radius: 10px;
+    }
+    .hidden-div2{
+        width: 60px;
+        height: 60px;
+        border-bottom-left-radius: 10px;
+    }
+    .hidden-div3{
+        width: 60px;
+        height: 60px;
+        border-top-right-radius: 10px;
+    }
+    .hidden-div4{
+        width: 60px;
+        height: 60px;
+        border-top-left-radius: 10px;
+    }
+    .hidden-div5{
+        height: 50%;
+        padding: 8px;
+    }
+    .hidden-div6{
+        height: 50%;
+        padding: 8px;
+    }
+    .hidden-div7{
+        width: 50%;
+        padding: 8px;
+    }
+    .hidden-div8{
+        width: 50%;
+        padding: 8px;
+    }
+}
